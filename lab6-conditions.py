@@ -32,9 +32,9 @@ if (option.isdigit() and int(option)<=4 and int(option)>=0):
     elif (int(option) == 4):
         string=input("Enter string to check if polindrom:")
         if (string == string[::-1]):
-            print("This is polindrom")
+            print("This is polindrom!")
         else:
-            print("This is not polindrom")
+            print("This is not polindrom!")
 
 
 else:
